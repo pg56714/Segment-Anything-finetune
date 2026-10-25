@@ -54,6 +54,10 @@ python sam_eval.py
 python demo_app.py
 ```
 
+## Security
+
+Dependency upgrades and the known remaining issues are recorded in [docs/security-log.md](docs/security-log.md) ([繁體中文](docs/security-log.zh-TW.md)).
+
 ## Source
 
 [segment-anything](https://github.com/facebookresearch/segment-anything)
