@@ -1,5 +1,5 @@
 opencv-python
 tqdm
 scikit-image
-gradio
+gradio>=6.16
 scikit-learn
