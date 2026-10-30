@@ -170,3 +170,13 @@ src
 # Etc
 .DS_Store
 .vscode
+
+# Local environment, weights and training outputs
+weights/*
+!weights/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+datasets/*
+!datasets/.gitkeep
+img_logs_sam/*
+!img_logs_sam/.gitkeep

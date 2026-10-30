@@ -1,13 +1,13 @@
 # Segment-Anything-finetune
 
+> **Security:** see [SECURITY.md](SECURITY.md) for known dependency issues.
+
 ## Getting Started
 
 ```bash
-conda create --name sam-finetune python=3.10 -y
+conda create --name sam-finetune python=3.12 -y
 
 conda activate sam-finetune
-
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 pip install -r requirements.txt
 ```
@@ -26,7 +26,7 @@ Organized [SOBA_v2-Datasets](https://drive.google.com/drive/folders/1561wGAf0oik
 
 ### Weights
 
-Download the weights from the following links and save them in the `weights` directory.
+Download the weights from the following links and save them in the `checkpoints` directory.
 
 [ViT-B](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth)
 

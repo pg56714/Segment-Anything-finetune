@@ -1,5 +1,8 @@
-opencv-python
-tqdm
-scikit-image
-gradio
-scikit-learn
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.14.1+cu126
+torchvision==0.29.1+cu126
+opencv-python==5.0.0.93
+tqdm==4.70.1
+scikit-image==0.26.0
+gradio==6.31.0 # >=6.16 fixes file read, SSRF and path traversal advisories
+scikit-learn==1.9.1
